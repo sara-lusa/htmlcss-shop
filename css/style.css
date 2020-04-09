@@ -1,0 +1,77 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Fine reset */
+
+/* Main Wrapper */
+.main-wrapper {
+  margin: 5px;
+}
+/* Fine Main Wrapper */
+
+/* Top riga */
+.top-riga {
+margin-bottom: 50px;
+}
+
+.box {
+  display: inline-block;
+  position: relative;
+}
+
+.sconto {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+/* Fine top riga */
+
+/* Bottom riga */
+.box {
+  display: inline-block;
+  position: relative;
+}
+
+.sconto {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+/* Fine bottom riga */
+
+/* HEART */
+.heart {
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+  text-align: center;
+  color: red;
+  display: none;
+}
+
+.box:hover .heart {
+  display: block;
+}
+/* Fine HEART */
